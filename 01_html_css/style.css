@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  font-family: "Karla", sans-serif;
+  letter-spacing: 1px;
+}
+#navbar {
+  height: 60px;
+  background-color: #1a2849;
+}
+
+#navbar-container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Rubik", sans-serif;
+}
+
+#brand {
+  color: #f9f9f9;
+  text-decoration: none;
+  height: 60px;
+  line-height: 60px;
+}
+
+#cart {
+  float: right;
+  height: 60px;
+  text-decoration: none;
+  line-height: 60px;
+  color: #da9833;
+}
+
+#image-container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+#image-container img {
+  width: 100%;
+  height: 300px;
+}
+
+#image-container p {
+  text-align: center;
+}
+.product {
+  width: 25%;
+  float: left;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-bottom: 25px; /* rems are better than pixels*/
+}
