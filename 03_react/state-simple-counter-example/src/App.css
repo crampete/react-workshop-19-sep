@@ -1,0 +1,25 @@
+.container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.counter {
+  background-color: #d9eeec;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.counter h1 {
+  color: #3c70a4;
+}
+.counter button {
+  background-color: #da9833;
+  width: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: none;
+  height: 20px;
+  border-radius: 5px;
+}

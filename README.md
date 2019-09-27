@@ -19,3 +19,7 @@ Things that the participants are encouraged to check out and dive deeper into :)
 - React.js
   - Lifecycle Methods
   - Controlled vs Uncontrolled Components
+
+## Credits
+
+- [Shopping Cart Icon](https://www.flaticon.com/free-icon/cart_138251#term=cart&page=1&position=16)
