@@ -13,7 +13,6 @@ Things that the participants are encouraged to check out and dive deeper into :)
   - Flexbox
   - Bootstrap
   - `box-sizing` property
-  - `rems`
 - JavaScript
   - Event Loop
   - Callbacks and Promises
