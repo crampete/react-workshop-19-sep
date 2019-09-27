@@ -1,0 +1,102 @@
+<html>
+    <head>
+    <title>Basic JavaScript</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <style>
+        body {
+    font-family: 'Muli' , sans-serif;
+}
+    </style>
+    </head>
+    <body>
+        <h2>Conditionals</h2>
+        <h4>Truthy</h4>
+        <ol>
+                <li>false</li>
+                <li>0</li>
+                <li>""</li>
+                <li>''</li>
+                <li>null</li>
+                <li>undefined</li>
+                <li>NaN</li>
+        </ol>
+
+        <h4>Falsely</h4>
+        <ol>
+                <li>true</li>
+                <li>9</li>
+                <li>-9</li>
+                <li>9.22</li>
+                <li>-9.22</li>
+                <li>"Srishti"</li>
+                <li>"false"</li>
+                <li>"0"</li>
+                <li>Infinity</li>
+                <li>-Infinity</li>
+        </ol>
+
+
+        <h2> if and if-else</h2>
+
+        <p>
+                if (condition) { <br>
+                    // code to be executed when the condition holds true <br>
+                } <br>
+
+
+                example :  <br>
+                var x = 4; <br>
+                if (x % 2 == 0) { <br>
+                    console.log("x is even."); <br>
+                } <br>
+
+        </p>
+        <p>
+                if (condition) { <br>
+                    // code to be executed when the condition holds true <br>
+                } else { <br>
+                    // code to be executed when the condition holds false <br>
+                } <br>
+
+                example : <br>
+
+                var x = 5;
+                if (x % 2 == 0) {  <br>
+                console.log("x is even."); <br>
+                } else { <br>
+                console.log("x is odd."); <br>
+                } <br>
+
+
+        </p>
+        <hr>
+        <h3>
+            QUIZ<br>
+
+            if(x > 300 || x < 400) {  <br>
+                console.log("I am in the if-block!"); <br>
+             } else { <br>
+                console.log("I am in the else-block!"); <br>
+             } <br>
+
+             For which of the following values of x, will the output of the below code snippet be “I am in the else-block!”?<br>
+
+             x = 200 <br>
+             x = 300 <br>
+             x = 401 <br>
+        </h3>
+
+        <hr>
+        <h3>
+            TODO <br>
+
+            You have to make a password checker that checks for the following conditions:
+
+            1. Condition - The password should be at least six characters long string.
+            2. In case, the condition is satisfied, text “Correct password!” should be displayed on the console.
+            3. In case, the condition is not satisfied i.e. the password is less than 6 characters long, text “ Password too short!” should be displayed on the console.
+        </h3>
+
+        <script src="script.js"></script>
+    </body>
+</html>
