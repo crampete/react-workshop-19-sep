@@ -1,6 +1,9 @@
 # React Workshop Sep 2019
 
 ## Agenda
+- Basic HTML & CSS. Coding parts of a website.
+- JavaScript. Datatypes, logic, operators etc.
+- React (Create React App, Components, Props, State, Event Listeners)
 
 ## Further Reading
 
